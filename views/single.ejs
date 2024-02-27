@@ -1,0 +1,24 @@
+
+    <div class="single-product pt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 ">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn btn-warning" href="/">Back</a>
+                        </div>
+                        <div class="card-body">
+                            <img class="w-100" src="/product/<%= product.productPhoto %>" alt="">
+                        </div>
+                        <div class="card-footer">
+                            <h2><%= product.name %></h2>
+                            <p>Regular Price: <%= product.regularPrice %></p>
+                            <p>Sale Price: <%= product.selaPrice %></p>
+                            <p>Stock: <%= product.stock %></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
